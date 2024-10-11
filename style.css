@@ -8,6 +8,7 @@ body {
     src: url(material/Inter.ttf);
 }
 
+/*Header*/
 nav {
     display: flex;
     justify-content: left;
@@ -26,29 +27,170 @@ nav {
     margin: 0 10px 0 0;
 }
 
-a {
-    color: black;
+nav a {
+    color: #050505;
     font-size: 13.5px;
+}
+
+.navbutton {
+    padding: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.navbutton:hover {
+    background-color: #f4f4f4;
+    border-radius: 3px;
+}
+
+a {
     text-decoration: none;
-    padding: 0 7px 0 20px;
 }
 
 .navcaret {
     width: 8px;
     height: 8px;
+    padding: 0 2px;
 }
 
 #request {
     margin-left: auto;
-    padding-right: 15px;
-    border-right: 1px solid #e5e5e5;
+}
+
+#divider {
+    color: #e5e5e5;
+    padding: 0 8px;
 }
 
 #barkyfree {
-    background-color: #050505;
-    color: white;
-    font-weight: 550;
-    padding: 6px 12px;
-    border-radius: 5px;
     margin-left: 10px;
+    padding: 6px 12px;
+}
+
+#barkyfree,
+#teamshero2 a {
+    background-color: #121212;
+    color: white;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    font-weight: 550;
+    border-radius: 5px;
+}
+
+#barkyfree:hover {
+    background-color: #353535;
+}
+
+/*Main*/
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*Main-teamshero*/
+#teamshero {
+    display: flex;
+    gap: 60px;
+    padding: 70px 0;
+}
+
+#teamshero2 {
+    width: 450px;
+}
+
+#teamshero2 h2 {
+    font-size: 45px;
+    margin: 0;
+}
+
+#teamshero2 p {
+    color: #666666;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 5px 0 10px 0;
+    margin: 0;
+}
+
+#teamshero2 a {
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 15px;
+    padding: 8px 12px;
+}
+
+#teamsheropic {
+    width: 450px;
+}
+
+/*Sponsorer*/
+#sponsor {
+    border-top: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    padding: 20px 0;
+}
+
+.sponsorrow {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.sponsorimg {
+    width: 100px;
+    height: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 15px 0;
+}
+
+#img1 {
+    background-image: url(material/company-logo-01.png);
+}
+
+#img2 {
+    background-image: url(material/company-logo-02.png);
+}
+
+#img3 {
+    background-image: url(material/company-logo-03.png);
+}
+
+#img4 {
+    background-image: url(material/company-logo-04.png);
+}
+
+#img5 {
+    background-image: url(material/company-logo-05.png);
+}
+
+#img6 {
+    background-image: url(material/company-logo-06.png);
+}
+
+#img7 {
+    background-image: url(material/company-logo-07.png);
+}
+
+#img8 {
+    background-image: url(material/company-logo-08.png);
+}
+
+#img9 {
+    background-image: url(material/company-logo-09.png);
+}
+
+#img10 {
+    background-image: url(material/company-logo-10.png);
+}
+
+#img11 {
+    background-image: url(material/company-logo-11.png);
+}
+
+#img12 {
+    background-image: url(material/company-logo-12.png);
+}
+
+#img13 {
+    background-image: url(material/company-logo-13.png);
 }
