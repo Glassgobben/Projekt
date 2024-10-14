@@ -23,7 +23,7 @@ nav,
 }
 
 #barkyfree,
-#teamshero2 a {
+.barkyfreebutton {
     background-color: #121212;
     color: white;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
@@ -31,7 +31,7 @@ nav,
 }
 
 #barkyfree,
-#teamshero2 a,
+.barkyfreebutton,
 .mainimg {
     border-radius: 5px;
 }
@@ -138,14 +138,14 @@ main {
     margin: 0;
 }
 
-#teamshero2 a {
+.barkyfreebutton {
     display: inline-block;
     margin: 5px 0;
     font-size: 13.5px;
     padding: 8px 12px;
 }
 
-#teamshero2 a:hover {
+.barkyfreebutton:hover {
     background-color: #353535;
 }
 
@@ -210,4 +210,78 @@ main {
 .quoter img {
     width: 35px;
     height: 35px;
+}
+
+/*Grå-ruta mm*/
+#ovangråruta {
+    max-width: 770px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    margin: 40px auto;
+    padding: 90px 0 70px;
+}
+
+#ovangråruta h3,
+#ovangråruta p,
+#ovangrårut a {
+    text-align: center;
+}
+
+#ovangråruta h3,
+#ovangråruta p,
+#ovangrårut a,
+#gråruta {
+    max-width: 430px;
+}
+
+#ovangråruta h3 {
+    font-size: 26px;
+    margin: 0;
+}
+
+#ovangråruta p {
+    color: #666;
+    font-size: 12px;
+}
+
+#ovangråruta a {
+    margin-bottom: 50px;
+}
+
+#gråruta {
+    max-width: 440px;
+    width: 100%;
+    background-color: #f4f4f4;
+    color: #666;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+#gråruta .underlinje {
+    height: 2px;
+    background-color: #e5e5e5;
+}
+
+#gråruta img {
+    width: 14.5px;
+    height: 14.5px;
+}
+
+#svarttext {
+    color: #050505;
+}
+
+.grårutacontent {
+    display: flex;
+    justify-content: space-between;
+}
+
+#svarttext,
+.grårutacontent {
+    font-size: 12px;
 }
