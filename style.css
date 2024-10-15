@@ -285,3 +285,49 @@ main {
 .grårutacontent {
     font-size: 12px;
 }
+
+
+/*Built for every team*/
+#built {
+    max-width: 770px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#built h3 {
+    font-size: 26px;
+    margin: 0;
+}
+
+.pgrå {
+    color: #666;
+    padding: 0 20px;
+}
+
+.pgrå,
+#builtrow a {
+    font-size: 12px;
+}
+
+#builtrow a,
+#builtrow h4 {
+    margin: 0;
+}
+
+#builtrow h4 {
+    font-size: 18px;
+}
+
+#builtrow {
+    display: flex;
+    padding: 20px 0;
+}
+
+.högerborder {
+    border-right: 1px solid #e5e5e5;
+}
+
+#builtrow a {
+    color: #050505;
+    text-decoration: underline;
+}
