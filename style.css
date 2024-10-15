@@ -331,3 +331,93 @@ main {
     color: #050505;
     text-decoration: underline;
 }
+
+#builtrow a:hover {
+    color: #087fe7;
+}
+
+/*See why dogs love us*/
+#built #h32 {
+    margin: 60px 0 30px;
+}
+
+#dogslove {
+    display: flex;
+    gap: 30px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#g2column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    max-width: 340px;
+}
+
+#g2column h4 {
+    margin: 0;
+}
+
+#g2column p {
+    font-size: 12px;
+    margin: 8px 0;
+}
+
+#g2column a {
+    color: #050505;
+    text-decoration: underline;
+}
+
+#dogslove img {
+    width: 335px;
+    height: 140px;
+}
+
+#statistik {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr 1px 1fr 1px 1fr;
+    justify-self: center;
+    max-width: 700px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.statistik {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    color: #666;
+}
+
+.statistik h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.statistik p {
+    margin: 16px 0 0;
+    font-size: 13.5px;
+}
+
+.statdivider {
+    width: 1px;
+    background-color: #e5e5e5;
+}
+
+#barkytoday {
+    margin: 60px auto;
+    text-align: center;
+}
+
+#barkytoday h3 {
+    margin: 0;
+    font-size: 26px;
+}
+
+#barkytoday p {
+    margin: 10px 0;
+    font-size: 12px;
+    color: #666;
+}
