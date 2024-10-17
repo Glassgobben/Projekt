@@ -100,6 +100,12 @@ a {
     padding: 6px 12px;
 }
 
+#burger {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
 /*Header*/
 #barkyfree:hover {
     background-color: #353535;
@@ -480,4 +486,24 @@ footer {
 
 #socials {
     display: flex;
+}
+
+/*mobilversion*/
+@media (max-width:599px) {
+
+    nav .navbutton,
+    nav #divider,
+    nav #barkyfree {
+        display: none;
+    }
+
+    #burger {
+        position: relative;
+        margin-left: auto;
+        padding-right: 5px;
+    }
+
+    nav {
+        border-bottom: none;
+    }
 }
