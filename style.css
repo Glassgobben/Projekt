@@ -275,6 +275,7 @@ main {
     width: 100%;
     background-color: #f4f4f4;
     color: #666;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -560,5 +561,20 @@ footer {
 
     .mainimg {
         width: 85%;
+    }
+
+    .quote {
+        width: 86%;
+        font-size: 18px;
+        font-weight: 550;
+    }
+
+    /*Gråruta mm*/
+    #ovangråruta {
+        width: 86%;
+    }
+
+    #gråruta {
+        width: 78%;
     }
 }
