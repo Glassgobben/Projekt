@@ -65,6 +65,7 @@ nav {
 nav a {
     color: #050505;
     font-size: 12px;
+    font-weight: 550;
 }
 
 .navbutton {
@@ -105,6 +106,7 @@ a {
     width: 20px;
     height: 20px;
     position: absolute;
+    display: none;
 }
 
 /*Header*/
@@ -120,7 +122,7 @@ main {
 
 /*Teamshero*/
 #teamshero {
-    gap: 50px;
+    gap: 45px;
     padding: 60px 0;
 }
 
@@ -174,7 +176,7 @@ main {
 }
 
 #sponsor img {
-    width: 80px;
+    width: 90px;
     height: 20px;
     object-fit: contain;
     padding: 10px 0;
@@ -319,7 +321,7 @@ main {
 
 .pgrå {
     color: #666;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 .pgrå,
@@ -337,12 +339,15 @@ main {
 }
 
 #builtrow {
-    display: flex;
+    display: grid;
+    grid-template-columns: 276px 1px 276px 1px 276px;
     padding: 20px 0;
 }
 
-.högerborder {
-    border-right: 1px solid #e5e5e5;
+.divider2 {
+    width: 1px;
+    height: 111px;
+    background-color: #e5e5e5;
 }
 
 #builtrow a {
@@ -512,6 +517,7 @@ footer {
 
     #burger {
         position: relative;
+        display: inline;
         margin-left: auto;
         padding-right: 5px;
     }
@@ -544,9 +550,4 @@ footer {
         flex-direction: column;
         gap: 0;
     }
-
-    .sponsorrow {
-        gap: ;
-    }
-
 }
