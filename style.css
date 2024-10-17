@@ -338,7 +338,7 @@ main {
 
 /*See why dogs love us*/
 #built #h32 {
-    margin: 60px 0 30px;
+    margin: 70px 0 30px;
 }
 
 #dogslove {
@@ -373,13 +373,14 @@ main {
 #dogslove img {
     width: 335px;
     height: 140px;
+    padding-bottom: 20px;
 }
 
 #statistik {
     display: grid;
     grid-template-columns: 1fr 1px 1fr 1px 1fr 1px 1fr;
     justify-self: center;
-    max-width: 700px;
+    max-width: 740px;
     margin: 25px auto;
     text-align: center;
 }
@@ -387,12 +388,12 @@ main {
 .statistik {
     display: flex;
     flex-direction: column;
-    padding: 0 30px;
     color: #666;
 }
 
 .statistik h1 {
     margin: 0;
+    pad: 10px 40px;
     font-size: 36px;
 }
 
@@ -420,4 +421,63 @@ main {
     margin: 10px 0;
     font-size: 12px;
     color: #666;
+}
+
+/*Footer*/
+footer {
+    margin: 0 15px;
+    border-top: 2px solid #e5e5e5;
+}
+
+#container {
+    margin: 20px 120px;
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.columnfoot {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.columnfoot a,
+.columnfoot div {
+    font-size: 13.5px;
+    margin: 0;
+}
+
+.columnfoot a {
+    color: #666;
+}
+
+.columnfoot div {
+    font-weight: 550;
+}
+
+.columnfoot img {
+    width: 150px;
+    height: 30px;
+    padding-bottom: 15px;
+}
+
+.columnfoot #socials img {
+    width: 20px;
+    height: 20px;
+    padding-bottom: 35px;
+}
+
+.columnfoot #socials img,
+.columnfoot p {
+    padding-left: 5px;
+}
+
+.columnfoot .smalltext {
+    font-size: 12px;
+}
+
+#socials {
+    display: flex;
 }
