@@ -17,6 +17,7 @@ nav,
 /*Header, Teamshero, Barkies*/
 #teamshero,
 .sponsorrow,
+.sponsorgroup,
 .quoter {
     display: flex;
     justify-content: center;
@@ -164,12 +165,16 @@ main {
     margin: 0 auto 50px;
 }
 
+.sponsorgroup {
+    gap: 20px;
+}
+
 .sponsorrow {
-    gap: 10px;
+    gap: 20px;
 }
 
 #sponsor img {
-    width: 100px;
+    width: 80px;
     height: 20px;
     object-fit: contain;
     padding: 10px 0;
@@ -491,6 +496,7 @@ footer {
 /*mobilversion*/
 @media (max-width:599px) {
 
+    /*Nav*/
     nav .navbutton,
     nav #divider,
     nav #barkyfree {
@@ -506,4 +512,29 @@ footer {
     nav {
         border-bottom: none;
     }
+
+    /*Teamshero*/
+    #teamshero {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 5px;
+        text-align: center;
+    }
+
+    #teamshero2 {
+        padding: 0;
+    }
+
+    /*Sponsorer*/
+    #sponsor {
+        padding: 10px 15px;
+    }
+
+    .sponsorgroup {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
 }
