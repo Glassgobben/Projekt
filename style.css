@@ -130,7 +130,7 @@ main {
 
 #teamshero2,
 #teamsheroimg {
-    width: 360px;
+    width: 390px;
 }
 
 #teamshero2 h2 {
@@ -161,7 +161,7 @@ main {
     border-top: 2px solid #e5e5e5;
     border-bottom: 2px solid #e5e5e5;
     padding: 15px 0;
-    max-width: 770px;
+    max-width: 830px;
     margin: 0 auto 50px;
 }
 
@@ -184,20 +184,23 @@ main {
 .imgntext {
     display: flex;
     flex-direction: column;
-    max-width: 770px;
+    max-width: 830px;
     margin: 0 auto;
     padding: 0 0 30px;
 }
 
 .imgntext h3 {
+    max-width: 420px;
     font-size: 26px;
+    line-height: 1;
     margin: 20px 0 0 0;
 }
 
 .toppara {
-    max-width: 350px;
-    font-size: 12px;
+    max-width: 390px;
+    font-size: 13.5px;
     line-height: 1.5;
+    margin: 10px 0;
 }
 
 .mainimg {
@@ -225,7 +228,7 @@ main {
 
 /*Grå-ruta mm*/
 #ovangråruta {
-    max-width: 770px;
+    max-width: 830px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -245,7 +248,7 @@ main {
 #ovangråruta p,
 #ovangrårut a,
 #gråruta {
-    max-width: 430px;
+    max-width: 490px;
 }
 
 #ovangråruta h3 {
@@ -255,7 +258,9 @@ main {
 
 #ovangråruta p {
     color: #666;
-    font-size: 12px;
+    font-size: 13.5px;
+    line-height: 1.5;
+    margin: 10px 0;
 }
 
 #ovangråruta a {
@@ -263,7 +268,7 @@ main {
 }
 
 #gråruta {
-    max-width: 440px;
+    max-width: 500px;
     width: 100%;
     background-color: #f4f4f4;
     color: #666;
@@ -294,19 +299,21 @@ main {
 
 #svarttext,
 .grårutacontent {
-    font-size: 12px;
+    font-size: 13.5px;
 }
 
 
 /*Built for every team*/
 #built {
-    max-width: 770px;
+    max-width: 830px;
     text-align: center;
     margin: 0 auto;
 }
 
 #built h3 {
     font-size: 26px;
+    text-align: center;
+    padding: 30px 0 0;
     margin: 0;
 }
 
@@ -528,6 +535,7 @@ footer {
 
     /*Sponsorer*/
     #sponsor {
+        max-width: 360px;
         padding: 10px 15px;
     }
 
@@ -535,6 +543,10 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 0;
+    }
+
+    .sponsorrow {
+        gap: ;
     }
 
 }
