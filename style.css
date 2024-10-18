@@ -477,16 +477,17 @@ footer {
 
 .columnfoot a {
     color: #666;
+    font-weight: 450;
 }
 
 .columnfoot div {
-    font-weight: 550;
+    font-weight: 650;
 }
 
 .columnfoot img {
-    width: 150px;
+    width: 130px;
     height: 30px;
-    padding-bottom: 15px;
+    padding: 0 5px 15px;
 }
 
 .columnfoot #socials img {
@@ -526,7 +527,13 @@ footer {
     }
 
     nav {
+        padding: 20px 0;
         border-bottom: none;
+    }
+
+    #brand {
+        position: relative;
+        right: 5px;
     }
 
     /*Teamshero*/
@@ -622,5 +629,30 @@ footer {
 
     .statistik p {
         margin: 5px 0 0;
+    }
+
+    /*Footer*/
+    #container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr 2fr;
+        gap: 20px;
+        padding-bottom: 0;
+        margin: 20px 0 0;
+    }
+
+    #socialsetc {
+        grid-area: 1/1/2/3
+    }
+
+    .columnfoot img {
+        padding: 0 5px 10px;
+    }
+
+    .columnfoot #socials img {
+        padding-bottom: 0;
+    }
+
+    .columnfoot .smalltext {
+        margin: 10px 0 0;
     }
 }
