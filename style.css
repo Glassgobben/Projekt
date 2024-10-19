@@ -76,6 +76,8 @@ nav a {
 .navbutton:hover {
     background-color: #f4f4f4;
     border-radius: 3px;
+    cursor: pointer;
+    ;
 }
 
 a {
@@ -122,7 +124,7 @@ main {
 
 /*Teamshero*/
 #teamshero {
-    gap: 45px;
+    gap: 50px;
     padding: 60px 0;
 }
 
@@ -132,16 +134,16 @@ main {
 
 #teamshero2,
 #teamsheroimg {
-    width: 390px;
+    width: 475px;
 }
 
 #teamshero2 h2 {
-    font-size: 36px;
+    font-size: 45px;
     margin: 0;
 }
 
 #teamshero2 p {
-    font-size: 13.5px;
+    font-size: 18px;
     line-height: 1.5;
     padding: 5px 0 10px 0;
     margin: 0;
@@ -150,7 +152,7 @@ main {
 .barkyfreebutton {
     display: inline-block;
     margin: 5px 0;
-    font-size: 13.5px;
+    font-size: 15px;
     padding: 8px 12px;
 }
 
@@ -163,7 +165,7 @@ main {
     border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
     padding: 15px 0;
-    max-width: 830px;
+
     margin: 0 auto 50px;
 }
 
@@ -523,11 +525,17 @@ footer {
         position: relative;
         display: inline;
         margin-left: auto;
-        padding-right: 5px;
+        padding: 5px 8px;
+    }
+
+    #burger:hover {
+        background-color: #f4f4f4;
+        padding: 5px 8px;
+        border-radius: 3px;
     }
 
     nav {
-        padding: 20px 0;
+        padding: 10px 0;
         border-bottom: none;
     }
 
