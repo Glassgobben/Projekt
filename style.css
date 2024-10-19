@@ -26,7 +26,7 @@ nav,
 #barkyfree,
 .barkyfreebutton {
     background-color: #121212;
-    color: white;
+    color: #e5e5e5;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
     font-weight: 550;
 }
@@ -49,7 +49,7 @@ nav {
     display: flex;
     justify-content: left;
     margin: 0 15px;
-    padding: 10px 0;
+    padding: 15px 0;
     border-bottom: 1px solid #e5e5e5;
 }
 
@@ -58,14 +58,14 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     width: 100px;
-    height: 20px;
-    margin: 0 10px 0 0;
+    height: 30px;
+    margin: 0 20px 0 0;
 }
 
 nav a {
     color: #050505;
-    font-size: 12px;
-    font-weight: 550;
+    font-size: 14px;
+    font-weight: 450;
 }
 
 .navbutton {
@@ -124,7 +124,7 @@ main {
 
 /*Teamshero*/
 #teamshero {
-    gap: 50px;
+    gap: 80px;
     padding: 60px 0;
 }
 
@@ -134,18 +134,18 @@ main {
 
 #teamshero2,
 #teamsheroimg {
-    width: 475px;
+    width: 460px;
 }
 
 #teamshero2 h2 {
     font-size: 45px;
-    margin: 0;
+    margin: 10px 0 0;
 }
 
 #teamshero2 p {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.5;
-    padding: 5px 0 10px 0;
+    padding: 5px 0 20px 0;
     margin: 0;
 }
 
@@ -162,73 +162,80 @@ main {
 
 /*Sponsorer*/
 #sponsor {
-    border-top: 1px solid #e5e5e5;
-    border-bottom: 1px solid #e5e5e5;
-    padding: 15px 0;
-
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 25px;
+    border-top: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    padding: 30px 0;
     margin: 0 auto 50px;
 }
 
 .sponsorgroup {
-    gap: 20px;
+    gap: 10px;
 }
 
 .sponsorrow {
-    gap: 20px;
+    gap: 10px;
 }
 
 #sponsor img {
-    width: 90px;
+    width: 130px;
     height: 20px;
     object-fit: contain;
-    padding: 10px 0;
 }
 
 /*Barkies*/
 .imgntext {
     display: flex;
     flex-direction: column;
-    max-width: 830px;
     margin: 0 auto;
     padding: 0 0 30px;
 }
 
 .imgntext h3 {
     max-width: 420px;
-    font-size: 26px;
+    font-size: 36px;
     line-height: 1;
     margin: 20px 0 0 0;
 }
 
 .toppara {
-    max-width: 390px;
-    font-size: 13.5px;
+    max-width: 450px;
+    font-size: 15px;
     line-height: 1.5;
-    margin: 10px 0;
+    margin: 15px 0 15px;
 }
 
 .mainimg {
     box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.1);
-    margin: 30px 0;
     width: 100%;
 }
 
 .quote {
-    font: 550 26px "Inter";
+    font: 650 36px "Inter";
     text-align: center;
-    margin: 0 10px;
+    margin: 40px 5px 10px;
 }
 
 .quoter {
     gap: 10px;
     padding: 15px;
-    font-size: 12px;
-    line-height: 1.3;
+}
+
+#quotername {
+    font: 550 15px "Inter";
+    line-height: 1.5;
+}
+
+#quoterposition {
+    font: 450 12px "Inter";
+    color: #7f7f7f;
 }
 
 .quoter img {
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
 }
 
 /*Grå-ruta mm*/
