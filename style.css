@@ -467,10 +467,9 @@ main {
 
 #statistik {
     display: grid;
-    grid-template-columns: 1fr 1px 1fr 1px 1fr 1px 1fr;
+    grid-template-columns: 1fr 1.5px 1fr 1.5px 1fr 1.5px 1fr;
     justify-self: center;
-    max-width: 740px;
-    margin: 25px auto;
+    margin: 40px auto;
     text-align: center;
 }
 
@@ -482,33 +481,33 @@ main {
 
 .statistik h1 {
     margin: 0;
-    pad: 10px 40px;
-    font-size: 36px;
+    padding: 0 40px;
+    font-size: 53px;
 }
 
 .statistik p {
-    margin: 16px 0 0;
-    font-size: 13.5px;
+    margin: 0;
+    font-size: 18px;
 }
 
 .statdivider {
-    width: 1px;
+    width: 1.5px;
     background-color: #e5e5e5;
 }
 
 #barkytoday {
-    margin: 60px auto;
+    margin: 80px auto;
     text-align: center;
 }
 
 #barkytoday h3 {
     margin: 0;
-    font-size: 26px;
+    font-size: 36px;
 }
 
 #barkytoday p {
-    margin: 10px 0;
-    font-size: 12px;
+    margin: 5px 0 10px;
+    font-size: 15px;
     color: #666;
 }
 
@@ -522,8 +521,8 @@ footer {
     margin: 20px 120px;
     padding: 40px 0;
     display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
-    gap: 50px;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    gap: 60px;
 }
 
 .columnfoot {
@@ -534,7 +533,7 @@ footer {
 
 .columnfoot a,
 .columnfoot div {
-    font-size: 13.5px;
+    font-size: 14px;
     margin: 0;
 }
 
@@ -550,13 +549,13 @@ footer {
 .columnfoot img {
     width: 130px;
     height: 30px;
-    padding: 0 5px 15px;
+    padding: 0 5px 20px;
 }
 
 .columnfoot #socials img {
     width: 20px;
     height: 20px;
-    padding-bottom: 35px;
+    padding-bottom: 30px;
 }
 
 .columnfoot #socials img,
@@ -565,7 +564,7 @@ footer {
 }
 
 .columnfoot .smalltext {
-    font-size: 12px;
+    font-size: 13.5px;
 }
 
 #socials {
@@ -573,7 +572,7 @@ footer {
 }
 
 /*mobilversion*/
-@media (max-width:599px) {
+@media (max-width:600px) {
 
     /*Nav*/
     nav .navbutton,
@@ -614,35 +613,57 @@ footer {
         text-align: center;
     }
 
+    #teamshero img {
+        width: 70%;
+    }
+
     #teamshero2 {
         padding: 0;
     }
 
+    #teamshero2 h2 {
+        line-height: 1;
+    }
+
+    #teamshero2 p {
+        padding: 10px 0 15px;
+    }
+
     /*Sponsorer*/
     #sponsor {
-        max-width: 360px;
-        padding: 10px 15px;
+        max-width: 440px;
+        padding: 30px 0;
     }
 
     .sponsorgroup {
         display: flex;
         flex-direction: column;
-        gap: 0;
+        gap: 20px;
+    }
+
+    .sponsorimg {
+        width: 90px;
     }
 
     /*Barkies*/
     .imgntext {
-        text-align: center;
         align-items: center;
     }
 
     .mainimg {
-        width: 85%;
+        width: 430px;
+        margin: 40px 0;
+    }
+
+    .toppara,
+    .quote {
+        margin: 0;
+        text-align: center;
     }
 
     .quote {
-        width: 86%;
-        font-size: 18px;
+        width: 440px;
+        font-size: 24px;
         font-weight: 550;
     }
 
