@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: "Inter";
+    line-height: 1.5;
 }
 
 @font-face {
@@ -63,7 +64,7 @@ nav {
 nav a {
     color: #050505;
     font-size: 14px;
-    font-weight: 450;
+    font-weight: 550;
 }
 
 .navbutton {
@@ -75,7 +76,6 @@ nav a {
     background-color: #f4f4f4;
     border-radius: 3px;
     cursor: pointer;
-    ;
 }
 
 a {
@@ -142,7 +142,6 @@ main {
 
 #teamshero2 p {
     font-size: 15px;
-    line-height: 1.5;
     padding: 5px 0 20px 0;
     margin: 0;
 }
@@ -256,7 +255,6 @@ main {
 .imgntext h3 {
     max-width: 420px;
     font-size: 36px;
-    line-height: 1;
     margin: 20px 0 0 0;
 }
 
@@ -264,7 +262,7 @@ main {
     max-width: 450px;
     font-size: 15px;
     line-height: 1.5;
-    margin: 15px 0 15px;
+    margin: 5px 0 15px;
 }
 
 .mainimg {
@@ -300,7 +298,6 @@ main {
 
 /*Grå-ruta mm*/
 #ovangråruta {
-    max-width: 830px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -318,41 +315,38 @@ main {
 
 #ovangråruta h3,
 #ovangråruta p,
-#ovangrårut a,
-#gråruta {
-    max-width: 490px;
+#ovangrårut a {
+    width: 55%;
 }
 
 #ovangråruta h3 {
-    font-size: 26px;
+    font-size: 36px;
     margin: 0;
 }
 
 #ovangråruta p {
     color: #666;
-    font-size: 13.5px;
-    line-height: 1.5;
+    font-size: 15px;
     margin: 10px 0;
 }
 
 #ovangråruta a {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 #gråruta {
-    max-width: 500px;
-    width: 100%;
+    width: 52%;
     background-color: #f4f4f4;
     color: #666;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 20px;
+    padding: 30px;
 }
 
 #gråruta .underlinje {
-    height: 1px;
+    height: 2px;
     background-color: #e5e5e5;
 }
 
@@ -372,19 +366,18 @@ main {
 
 #svarttext,
 .grårutacontent {
-    font-size: 13.5px;
+    font-size: 15px;
 }
 
 
 /*Built for every team*/
 #built {
-    max-width: 830px;
     text-align: center;
     margin: 0 auto;
 }
 
 #built h3 {
-    font-size: 26px;
+    font-size: 36px;
     text-align: center;
     padding: 30px 0 0;
     margin: 0;
@@ -393,11 +386,12 @@ main {
 .pgrå {
     color: #666;
     padding: 0 30px;
+    margin: 10px 0;
 }
 
 .pgrå,
 #builtrow a {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 #builtrow a,
@@ -406,18 +400,18 @@ main {
 }
 
 #builtrow h4 {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 #builtrow {
     display: grid;
-    grid-template-columns: 276px 1px 276px 1px 276px;
-    padding: 20px 0;
+    grid-template-columns: 1fr 1.5px 1fr 1.5px 1fr;
+    padding: 30px 0;
 }
 
 .divider2 {
-    width: 1px;
-    height: 111px;
+    width: 1.5px;
+    height: 120px;
     background-color: #e5e5e5;
 }
 
@@ -438,9 +432,7 @@ main {
 
 #dogslove {
     display: flex;
-    gap: 30px;
-    max-width: 700px;
-    margin: 0 auto;
+    gap: 6%;
 }
 
 #g2column {
@@ -448,15 +440,17 @@ main {
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    max-width: 340px;
+    width: 43%;
+    margin: 0 0 0 auto;
 }
 
 #g2column h4 {
     margin: 0;
+    font-size: 24px;
 }
 
 #g2column p {
-    font-size: 12px;
+    font-size: 15px;
     margin: 8px 0;
 }
 
@@ -466,8 +460,8 @@ main {
 }
 
 #badges {
-    width: 335px;
-    height: 140px;
+    width: 48%;
+    height: 190px;
     padding-bottom: 20px;
 }
 
