@@ -26,7 +26,7 @@ nav,
 .barkyfreebutton {
     background-color: #121212;
     color: #e5e5e5;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.1);
     font-weight: 550;
 }
 
@@ -49,7 +49,7 @@ nav {
     justify-content: left;
     margin: 0 15px;
     padding: 15px 0;
-    border-bottom: 2px solid #e5e5e5;
+    border-bottom: 1.5px solid #e5e5e5;
 }
 
 #brand {
@@ -162,8 +162,8 @@ main {
     display: grid;
     grid-row: 1fr 1fr;
     gap: 25px;
-    border-top: 2px solid #e5e5e5;
-    border-bottom: 2px solid #e5e5e5;
+    border-top: 1.5px solid #e5e5e5;
+    border-bottom: 1.5px solid #e5e5e5;
     padding: 35px 0;
     margin: 0 auto 50px;
 }
@@ -301,8 +301,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-top: 2px solid #e5e5e5;
-    border-bottom: 2px solid #e5e5e5;
+    border-top: 1.5px solid #e5e5e5;
+    border-bottom: 1.5px solid #e5e5e5;
     margin: 40px auto;
     padding: 90px 0 70px;
 }
@@ -418,7 +418,7 @@ main {
 #builtrow a {
     color: #050505;
     font-weight: 450;
-    text-decoration: underline;
+    border-bottom: 1.5px solid #050505;
 }
 
 #builtrow a:hover {
@@ -432,7 +432,7 @@ main {
 
 #dogslove {
     display: flex;
-    gap: 6%;
+    gap: 10%;
 }
 
 #g2column {
@@ -441,7 +441,6 @@ main {
     justify-content: center;
     text-align: left;
     width: 43%;
-    margin: 0 0 0 auto;
 }
 
 #g2column h4 {
@@ -514,12 +513,11 @@ main {
 /*Footer*/
 footer {
     margin: 0 15px;
-    border-top: 2px solid #e5e5e5;
+    border-top: 1.5px solid #e5e5e5;
 }
 
 #container {
-    margin: 20px 120px;
-    padding: 40px 0;
+    margin: 60px 90px;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
     gap: 60px;
@@ -574,6 +572,12 @@ footer {
 /*mobilversion*/
 @media (max-width:600px) {
 
+    /*Main*/
+    main {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
     /*Nav*/
     nav .navbutton,
     nav #divider,
@@ -613,9 +617,7 @@ footer {
         text-align: center;
     }
 
-    #teamshero img {
-        width: 70%;
-    }
+    #teamshero img {}
 
     #teamshero2 {
         padding: 0;
@@ -631,7 +633,6 @@ footer {
 
     /*Sponsorer*/
     #sponsor {
-        max-width: 440px;
         padding: 30px 0;
     }
 
@@ -650,8 +651,12 @@ footer {
         align-items: center;
     }
 
+    .imgntext h3 {
+        max-width: 100%;
+    }
+
     .mainimg {
-        width: 430px;
+        width: 90%;
         margin: 40px 0;
     }
 
@@ -669,11 +674,20 @@ footer {
 
     /*Gråruta mm*/
     #ovangråruta {
-        width: 86%;
+        padding-bottom: 90px;
+        margin-bottom: 60px;
+    }
+
+    #ovangråruta h3 {
+        width: 100%;
+    }
+
+    #ovangråruta p {
+        width: 77%;
     }
 
     #gråruta {
-        width: 78%;
+        width: 89%;
     }
 
     /*Built for every team*/
@@ -702,13 +716,18 @@ footer {
     }
 
     /*See why dogs love us*/
+    #dogslove {
+        gap: 40px;
+    }
+
     #g2column {
-        max-width: 390px;
+        width: 85%;
     }
 
     #badges {
-        width: 380px;
-        height: 160px;
+        width: 90%;
+        height: 210px;
+        padding-bottom: 10px;
     }
 
     #statistik {
@@ -726,12 +745,11 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr 1fr 2fr;
         gap: 20px;
-        padding-bottom: 0;
-        margin: 20px 0 0;
+        margin: 90px 0 0;
     }
 
     #socialsetc {
-        grid-area: 1/1/2/3
+        grid-area: 1/1/2/3;
     }
 
     .columnfoot img {
